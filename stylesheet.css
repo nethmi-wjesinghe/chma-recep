@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foodie {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: larges;
+    color: rgb(255, 255, 255);
+    padding: 30px 25px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("AD011219-21_original.jpg");
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    padding: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10;
+}
+
+button {
+    width: 130px;
+    color: black;
+    font-size: 12px;
+    padding: 12px;
+    background: white;
+    border: 0;
+    border-radius: 40px;
+    outline: none;
+    margin-top: 30px;
+
+}
+
+/*
+Card old 
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 90px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("new/download.png");
+    padding: 8px;
+    transition: transform 0.5s;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-size: cover;
+    perspective: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+*/
+.card1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("mobile-top-1-6.png");
+
+    background-size: cover;
+    
+}
+
+.card2 {
+    background-image: url("mont-blanc-chestnut-mousse-dessert.webp");
+    background-size: cover;
+
+}
+
+.card3 {
+    background-image: url("ww.jpg");
+    background-size: cover;
+
+
+
+}
+
+.card4 {
+    background-image: url("international-favorites.jpg");
+    background-size: cover;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: white;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+}
+
+
+.flip-card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-color: transparent;
+    transition: transform 0.5s;
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+    text-align: center;
+    background-size: cover;
+    perspective: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+
+.flip-card-back {
+    background-color: #0c0c0ce3;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+}
+p{
+    padding-top: 12px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}

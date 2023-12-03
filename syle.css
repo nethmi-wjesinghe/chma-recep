@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("AD011219-21_original.jpg");
+   
+    
+
+}
+.ingredient{
+   font-size: 16px;
+   font-family: "roboto";
+   color: white;
+   padding-bottom: 20px;
+   padding-inline-start: 300px;
+}
+h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom:20px;
+    padding-inline-start: 200px;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom:20px;
+    padding-inline-start: 300px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom:20px;
+    padding-inline-start: 300px;
+
+}
+.container{
+    padding-top: 74px;
+}

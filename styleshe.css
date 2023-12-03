@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("AD011219-21_original.jpg");
+    padding-left: 8%;
+}
+h2{
+    font-family: "roboto";
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+}
+h4{
+    font-family: "roboto";
+    font-size: 16px;
+    color: white;
+    text-align:left;
+    padding-top: 1%;
+}
+p{
+    font-family: "roboto";
+    font-size: 16px;
+    color: white;
+    text-align:left;
+    padding-top: 1%;
+}
+h3{
+    font-family: "roboto";
+    font-size: 14px;
+    color: white;
+    text-align:left;
+    padding-top: 1%;
+}

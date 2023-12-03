@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("AD011219-21_original.jpg");
+    
+  }
+  h3{
+    font-size: 40px;
+    text-align: center;
+    font-family: "roboto";
+    color: white;
+
+  }
+  .card {
+    width: 400px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 90px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    padding: 8px;
+    transition: transform 0.5s;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-size: cover;
+    padding-top: 5px;
+}
+.card1 {
+    background-image: url("DSC_4057.jpg");
+    padding-bottom: 20px;
+ 
+}
+
+.card2 {
+    background-image: url("374344.jpg");
+   
+
+}
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+ 

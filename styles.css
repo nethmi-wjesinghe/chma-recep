@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "robotics";
+}
+h3{
+    font-family: "robotics";
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+}
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("AD011219-21_original.jpg");
+  
+}
+.card {
+    width: 400px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 90px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    padding: 8px;
+    transition: transform 0.5s;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-size: cover;
+}
+.card1 {
+    background-image: url("colombo-dishes.jpg");
+ 
+}
+
+.card2 {
+    background-image: url("kiribath.jpg");
+   
+
+}
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card3{
+    background-image: url("jpn.webp");
+  }
+  .card4{
+    background-image: url("kimchi_ready_to_eat.webp");
+  }
+  .card5{
+    background-image: url("DSC_4057.jpg");
+  }
+  .card6{
+    background-image: url("374344.jpg");
+  }
+ .kimchi{
+  font-family: "robotic";
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    padding-top: 4%;
+    padding-inline-start: 30px;
+ }
+ .second{
+  font-family: "robotic";
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    padding-top: 4%;
+    padding-inline-start: 30px;
+ }
+ .card7{
+  background-image: url("maalu paan.jpg");
+}
+.card8{
+  background-image: url("butter.jpg");
+}
+.ingredient{
+  font-size: 16px;
+  font-family: "roboto";
+  color: white;
+  padding-inline-start: 300px;
+  padding-top: 74px;
+}

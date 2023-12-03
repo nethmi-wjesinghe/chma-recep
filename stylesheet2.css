@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:"roboto";
+}
+.h3{
+    font-family: "roboto";
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
+.Recipes{
+    background-image: "1b2431.png";
+}
